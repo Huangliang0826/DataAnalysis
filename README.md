@@ -7,7 +7,7 @@ Email: liang.huang@student.uva.nl
 ## Objective: 
 
 ### 1. Find an optimal credit assignment given a finite budget.
-### 2. Maximize the combined ROI (Return of Investment) of the individual campaigns.
+### 2. Maximize the combined ROI (Return on Investment) of the individual campaigns.
 
 ## My Approach: 
 
@@ -18,7 +18,7 @@ Email: liang.huang@student.uva.nl
 ### 5. Bring it to production.
 
 ## Conclusion.
-### In this assignment, I provide two approaches to optimize our bidding strategy. One is to use regression models to predict the ROI(return of investment) based on the user's profile; another approach is to use a classification model to classify our target customers. 
+### In this assignment, I provide two approaches to optimize our bidding strategy. One is to use regression models to predict the ROI(return on investment) based on the user's profile; another approach is to use a classification model to classify our target customers. 
 
 ### In practice, two approaches can be combined to find an optimal credit assignment given a finite budget. For example,  given a collection of candidate users and their profile, we can use classification model to filter out the non-target users first, then we can use a regression model to predict the ROI for each target user. Finally, we can sort the target users based on their ROI value and choose the top n users for our advertisement campaign. 
 
